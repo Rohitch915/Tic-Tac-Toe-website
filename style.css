@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:500px ;
+    height: 500px;
+    box-shadow: 0px 0px 10px black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.box{
+    border:1px solid black;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.box:hover{
+    cursor: pointer;
+   filter: brightness(0.8);
+}
+
+.inner{
+    position: absolute;
+  font-size: 116px;
+}
+.inner-o{
+    position: absolute;
+    font-size: 228px;
+    font-family: fantasy;
+    top: -41%;
+    left: 12%;
+    text-align: center;
+}
